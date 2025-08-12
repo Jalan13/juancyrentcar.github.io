@@ -100,7 +100,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
             "img/Imagen interir crv gris 2013.jpg",
-            "Video honda crv gris 2013.mp4"
+            "Video crv gris 2013.mp4"
         ]
     },
     {
@@ -405,6 +405,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
