@@ -116,7 +116,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
             "img/Imagen interior crv blanca 2016.jpg",
-            "Video honda crv blanca 2016.mp4"
+            "Video crv blanca 2016.mp4"
         ]
     },
     {
@@ -405,6 +405,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
