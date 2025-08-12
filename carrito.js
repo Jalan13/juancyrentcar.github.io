@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Siempre leer del localStorage al iniciar
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     console.log("Carrito desde localStorage:", carrito);
+    const openMenu = document.getElementById('open-menu');
     
     // Resto del código...
 
@@ -137,3 +138,4 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mostrarCarrito();
 });
+
