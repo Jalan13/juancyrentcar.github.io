@@ -2,11 +2,11 @@ document.addEventListener("DOMContentLoaded", () => {
     // Siempre leer del localStorage al iniciar
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     console.log("Carrito desde localStorage:", carrito);
-    const openMenu = document.getElementById('open-menu');
-    const closeMenu = document.getElementById('close-menu');
+
     
     // Resto del código...
-
+    const openMenu = document.getElementById('open-menu');
+    const closeMenu = document.getElementById('close-menu');
     const contenedorProductos = document.querySelector(".carrito-productos");
     const carritoVacio = document.querySelector(".carrito-vacio");
     const carritoAcciones = document.getElementById("carrito-acciones");
@@ -139,5 +139,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mostrarCarrito();
 });
+
 
 
