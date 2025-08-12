@@ -84,7 +84,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2019,
         galeria: [
-            "Video honda crv gris 2019.mp4"
+            "Video crv gris 2019.mp4"
         ]
     },
     {
@@ -405,6 +405,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
