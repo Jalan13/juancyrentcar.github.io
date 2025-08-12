@@ -19,7 +19,7 @@ const vehiculos = [
     {
         id: 2,
         titulo: "Honda CR-V 2018",
-        imagen: "https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&w=400",
+        imagen: "",
         precio: 60,
         marca: "honda",
         caracteristicas: ["SUV", "AWD", "5 Asientos", "Cámara"],
@@ -405,6 +405,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
