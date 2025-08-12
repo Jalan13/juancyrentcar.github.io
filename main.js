@@ -13,7 +13,7 @@ const vehiculos = [
         año: 2024,
          galeria: [
     "img/Prueba de interior.jpeg", // Imagen de prueba
-    "video toyota highlander.mp4" // Video de prueba
+    "Video toyota highlander.mp4" // Video de prueba
 ]
     },
     {
@@ -53,7 +53,7 @@ const vehiculos = [
         año: 2011,
         galeria: [
             "img/Imagen interior crv negra 2011.jpg",
-            "video honda crv 2011 negra.mp4"
+            "Video honda crv 2011 negra.mp4"
         ]
     },
     {
@@ -131,7 +131,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2015,
         galeria: [
-            "video hyundai santa fe.mp4"
+            "Video hyundai santa fe.mp4"
         ]
     }
 ];
@@ -405,4 +405,5 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
