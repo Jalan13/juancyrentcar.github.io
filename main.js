@@ -84,7 +84,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2019,
         galeria: [
-            "Video crv gris 2019.mp4"
+            "Video honda crv gris 2019.mp4"
         ]
     },
     {
@@ -100,7 +100,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
             "img/Imagen interir crv gris 2013.jpg",
-            "Video crv gris 2013.mp4"
+            "Video honda crv gris 2013.mp4"
         ]
     },
     {
@@ -116,7 +116,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
             "img/Imagen interior crv blanca 2016.jpg",
-            "Video crv blanca 2016.mp4"
+            "Video honda crv blanca 2016.mp4"
         ]
     },
     {
@@ -405,5 +405,6 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
