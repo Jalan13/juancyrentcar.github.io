@@ -13,7 +13,7 @@ const vehiculos = [
         año: 2024,
          galeria: [
     "img/Prueba de interior.jpeg", // Imagen de prueba
-    "video/video toyota highlander.mp4" // Video de prueba
+    "video toyota highlander.mp4" // Video de prueba
 ]
     },
     {
@@ -53,7 +53,7 @@ const vehiculos = [
         año: 2011,
         galeria: [
             "img/Imagen interior crv negra 2011.jpg",
-            "video/video honda crv 2011 negra.mp4"
+            "video honda crv 2011 negra.mp4"
         ]
     },
     {
@@ -69,7 +69,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
            "img/Prueba de interior.jpeg", // Imagen de prueba
-           "video/Video crv gris 2020.mp4" // Video de prueba
+           "Video crv gris 2020.mp4" // Video de prueba
 ]
     },
     {
@@ -84,7 +84,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2019,
         galeria: [
-            "video/Video crv gris 2019.mp4"
+            "Video crv gris 2019.mp4"
         ]
     },
     {
@@ -100,7 +100,7 @@ const vehiculos = [
         año: 2024,
         galeria: [
             "img/Imagen interir crv gris 2013.jpg",
-            "video/Video crv gris 2013.mp4"
+            "Video crv gris 2013.mp4"
         ]
     },
     {
@@ -131,7 +131,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2015,
         galeria: [
-            "video/video hyundai santa fe.mp4"
+            "video hyundai santa fe.mp4"
         ]
     }
 ];
@@ -405,3 +405,4 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
