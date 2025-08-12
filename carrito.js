@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let carrito = JSON.parse(localStorage.getItem("carrito")) || [];
     console.log("Carrito desde localStorage:", carrito);
     const openMenu = document.getElementById('open-menu');
+    const closeMenu = document.getElementById('close-menu');
     
     // Resto del código...
 
@@ -138,4 +139,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mostrarCarrito();
 });
+
 
