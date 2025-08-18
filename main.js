@@ -131,7 +131,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2015,
         galeria: [
-            "img/Imagen interior santa fe.jpg"
+            "img/Imagen interior santa fe.jpg",
             "Video hyundai santa fe.mp4"
         ]
     }
@@ -406,6 +406,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
