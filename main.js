@@ -38,7 +38,10 @@ const vehiculos = [
         rating: 4.7,
         popular: false,
         combustible: "Gasolina",
-        año: 2015
+        año: 2015,
+        galeria: [
+            "Video honda crv 2015 azul.mp4"
+        ]
     },
     {
         id: 4,
@@ -406,6 +409,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
