@@ -122,7 +122,7 @@ const vehiculos = [
     {
         id: 9,
         titulo: "Hyundai Santa Fe 2015",
-        imagen: "img/Imagen exterior santa fe.jpg",
+        imagen: "img/Imagen exterior santa fe",
         precio: 45,
         marca: "hyundai",
         caracteristicas: ["SUV", "5 Asientos", "AWD", "Navegación"],
@@ -131,7 +131,7 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2015,
         galeria: [
-            "img/Imagen interior santa fe.jpg",
+            "img/Imagen interior santa fe",
             "Video hyundai santa fe.mp4"
         ]
     }
@@ -406,6 +406,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
