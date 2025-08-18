@@ -3,7 +3,7 @@ const vehiculos = [
     {
         id: 1,
         titulo: "Toyota Highlander 2015",
-        imagen: "img/Highlander.jpg",
+        imagen: "Highlander.jpg",
         precio: 45,
         marca: "toyota",
         caracteristicas: ["Automático", "A/C", "5 Asientos", "GPS"],
@@ -12,24 +12,12 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2024,
          galeria: [
-    "img/Prueba de interior.jpeg", // Imagen de prueba
     "Video toyota highlander.mp4" // Video de prueba
 ]
     },
+    
     {
         id: 2,
-        titulo: "Honda CR-V 2018",
-        imagen: "",
-        precio: 60,
-        marca: "honda",
-        caracteristicas: ["SUV", "AWD", "5 Asientos", "Cámara"],
-        rating: 4.9,
-        popular: true,
-        combustible: "Gasolina",
-        año: 2018
-    },
-    {
-        id: 3,
         titulo: "Honda CR-V 2015",
         imagen: "Imagen crv azul 2015.jpg",
         precio: 45,
@@ -44,7 +32,7 @@ const vehiculos = [
         ]
     },
     {
-        id: 4,
+        id: 3,
         titulo: "Honda CR-V 2011",
         imagen: "img/Imagen honda 2011.jpg",
         precio: 35,
@@ -60,7 +48,7 @@ const vehiculos = [
         ]
     },
     {
-        id: 5,
+        id: 4,
         titulo: "Honda CR-V 2020",
         imagen: "img/CRV Gris 2020.jpg",
         precio: 60,
@@ -71,12 +59,11 @@ const vehiculos = [
         combustible: "Gasolina",
         año: 2024,
         galeria: [
-           "img/Prueba de interior.jpeg", // Imagen de prueba
            "Video crv gris 2020.mp4" // Video de prueba
 ]
     },
     {
-        id: 6,
+        id: 5,
         titulo: "Honda CR-V 2019",
         imagen: "img/CRV Gris Nardo 2020.jpg",
         precio: 60,
@@ -91,7 +78,7 @@ const vehiculos = [
         ]
     },
     {
-        id: 7,
+        id: 6,
         titulo: "Honda CR-V 2013",
         imagen: "img/Imagen crv gris 2013.jpg",
         precio: 45,
@@ -107,7 +94,7 @@ const vehiculos = [
         ]
     },
     {
-        id: 8,
+        id: 7,
         titulo: "Honda CR-V 2015",
         imagen: "img/Imagen crv blanca 2016.jpg",
         precio: 45,
@@ -123,7 +110,7 @@ const vehiculos = [
         ]
     },
     {
-        id: 9,
+        id: 8,
         titulo: "Hyundai Santa Fe 2015",
         imagen: "Imagen exterior santa fe.jpg",
         precio: 45,
@@ -409,6 +396,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
