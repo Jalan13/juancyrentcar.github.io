@@ -31,7 +31,7 @@ const vehiculos = [
     {
         id: 3,
         titulo: "Honda CR-V 2015",
-        imagen: "https://images.pexels.com/photos/2479557/pexels-photo-2479557.jpeg?auto=compress&cs=tinysrgb&w=400",
+        imagen: "Imagen crv azul 2015.jpg",
         precio: 45,
         marca: "honda",
         caracteristicas: ["Sedán", "Premium", "5 Asientos", "Bluetooth"],
@@ -409,6 +409,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
