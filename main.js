@@ -65,7 +65,7 @@ const vehiculos = [
     {
         id: 6,
         titulo: "Honda CR-V 2019",
-        imagen: "img/CRV Gris Nardo 2020.jpg",
+        imagen: "CRV Gris Nardo 2020.jpg",
         precio: 60,
         marca: "honda",
         caracteristicas: ["SUV", "AWD", "7 Asientos", "Cámara"],
@@ -396,6 +396,7 @@ function abrirModalGaleria(vehiculo) {
     });
 
 }
+
 
 
 
